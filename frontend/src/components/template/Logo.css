@@ -1,23 +1,19 @@
+
 aside.logo {
     background-color: var(--bg-dark);
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.logo{
-    text-decoration: none;
-}
 aside.logo img {
     padding: 0px 15px;
     width: 100%;
-    text-decoration: none
 }
 
 .one_name {
     color: rgba(0, 255, 255, 0.733);
     font-size: 40px;
     transition: all ease 1s;
-
 }
 
 .one_name:hover {

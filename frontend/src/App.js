@@ -14,6 +14,6 @@ export default props =>
         <Logo />
         <Nav />
         <Main icon="home" title="Início" 
-            subtitle="Voce esta no menu HOME."/>
+            subtitle="Voce esta no menu HOME"/>
         <Footer />
     </div>
