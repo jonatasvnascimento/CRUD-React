@@ -1,21 +1,15 @@
-import React, { Components } from 'react'
+import React, { Component } from 'react'
+import axios from 'axios'
 import Main from '../template/Main'
 
 const headerProps = {
     icon: 'users',
-    title: 'Usúario',
-    subtitle: 'Cadastro de usúario: Incluir, Listar, Alterar e Excluir'
+    title: 'Usuários',
+    subtitle: 'Cadastro de usuários: Incluir, Listar, Alterar e Excluir!'
 }
 
-export default class UserCrud extends Components {
-    constructor() {
-        const headerProps = {
-            icon: 'users',
-            title: 'Usúario',
-            subtitle: 'Cadastro de usúario: Incluir, Listar, Alterar e Excluir'
-        }
-    }
-    render() {
+export default class UserCrud extends Component {
+    render(){
         return (
             <Main {...headerProps}>
                 Cadastro de Usuario
