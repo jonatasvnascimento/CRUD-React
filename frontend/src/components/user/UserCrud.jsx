@@ -7,7 +7,14 @@ const headerProps = {
     subtitle: 'Cadastro de usúario: Incluir, Listar, Alterar e Excluir'
 }
 
-export default class UserCrud extends Components{
+export default class UserCrud extends Components {
+    constructor() {
+        const headerProps = {
+            icon: 'users',
+            title: 'Usúario',
+            subtitle: 'Cadastro de usúario: Incluir, Listar, Alterar e Excluir'
+        }
+    }
     render() {
         return (
             <Main {...headerProps}>
