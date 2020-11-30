@@ -1,4 +1,4 @@
-// import './Main.css'
+import './Main.css'
 import React from 'react'
 import Header from './Header'
 
@@ -10,8 +10,6 @@ export default props =>
                 <div className="p-3 mt-3">
                     {props.children}
                 </div>
-                <hr/>
-                <p className="mb-0">Sistema de gerenciamento desenvolvido em React</p>
             </main>
         </main>
     </React.Fragment>

@@ -7,5 +7,5 @@ export default props =>
         <a href="/" className="logo">
             {/* <img src={logo} alt="logo"/> */}
         </a>
-        <h1 className="one_name">Ghost<span className="two_name">Bit</span></h1>
+        <h1 className="one_name">Open<span className="two_name">XCOD</span></h1>
     </aside>
